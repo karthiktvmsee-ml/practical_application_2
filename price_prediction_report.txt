@@ -1,0 +1,44 @@
+
+Used Car Price Prediction Report
+================================
+Business Objective:
+-------------------
+Provide insights into factors influencing used car prices and build predictive models.
+
+Data Summary:
+-------------
+- Features: 142
+- Training Samples: 287764
+- Test Samples: 71941
+
+Model Performance:
+------------------
+Linear Regression:
+    Test RMSE: 0.70
+    R²: 0.5149
+
+Ridge Regression:
+    Test RMSE: 0.70
+    R²: 0.5149
+
+Best Model:
+-----------
+Linear Regression
+
+Key Insights:
+-------------
+- Car age and odometer strongly influence price.
+- Manufacturer and fuel type also impact pricing.
+- Regularization (Ridge) slightly improves performance over Linear Regression, 
+
+Business Interpretation:
+------------------------
+- Linear Regression is simpler, interpretable, and performs as well or better.
+- Dealers can easily understand coefficient impacts (e.g., how car age or mileage affects price).
+
+Recommendations:
+----------------
+- Focus on newer cars with lower mileage for higher resale value.
+- Electric and diesel vehicles tend to have higher average prices.
+- Use the saved model for inventory pricing optimization.
+
